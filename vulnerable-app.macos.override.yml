@@ -1,0 +1,6 @@
+services:
+  debug-shell:
+    network_mode: bridge
+    pid: ""
+    ports:
+      - "2222:22"
